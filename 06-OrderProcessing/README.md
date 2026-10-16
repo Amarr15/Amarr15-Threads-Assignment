@@ -222,3 +222,26 @@ The data folder is located at:
    Parallel work runs multiple CPU instructions simultaneously across different physical CPU cores. Concurrent asynchronous work interleaves non-blocking operations on a few threads by releasing threads during I/O waits.
 6. **Cancelled run behavior:**  
    When cancelled with `--cancel-after`, all in-flight orders stop at their next step, any reserved stock is atomically released back, captured payments are refunded, and orders are persisted with `Status = Pending` and `FailureReason = "Cancelled"`.
+
+---
+
+## 7. Execution Screenshots
+
+The following screenshots captured from test runs illustrate system execution across all phases:
+
+1. **Phase 1 Benchmark & Validation Summary:**  
+   ![Phase 1 Validation](screenshots/phase-1.png)  
+   ![Validation Summary](screenshots/validation%20summary.png)
+
+2. **Phase 2 Pricing & Blocking Wait Demos:**  
+   ![Pricing Performance](screenshots/Pricing%20Performance.png)  
+   ![Blocking Wait Demo](screenshots/phase-2%20__%20blocking%20wait.png)
+
+3. **Phase 3 Full Checkout & Controlled Failures:**  
+   ![Final Orders Table Phase 3](screenshots/Final%20Orders%20Table%20(Phase%203).png)  
+   ![Final Task Statuses](screenshots/Final%20Task%20Statuses%20--%20Final%20Report.png)
+
+4. **Phase 4 Scale-Up (WhenEach & Parallel Execution):**  
+   ![Task 10.1 Streaming Status](screenshots/Task%2010.1%20Status%20Breakdown.png)  
+   ![Task 10.4 A Fraud Scoring](screenshots/Task%2010.4%20A%20CPU-Bound%20Fraud%20Scoring%20(10,000%20Orders).png)  
+   ![Emails Sent](screenshots/Emails%20sent.png)
