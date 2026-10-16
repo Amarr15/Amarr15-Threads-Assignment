@@ -4,4 +4,7 @@
 /invoices/
 # Generated invoice output
 01-InvoiceExport/InvoiceExport/invoices/
-**/Data/
+**/Data/
+.vs/
+**/.vs/
+
