@@ -1,6 +1,7 @@
 # .NET build output
 **/bin/
 **/obj/
-
+/invoices/
 # Generated invoice output
 01-InvoiceExport/InvoiceExport/invoices/
+**/Data/
