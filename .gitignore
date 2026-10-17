@@ -3,8 +3,7 @@
 **/obj/
 /invoices/
 # Generated invoice output
-01-InvoiceExport/InvoiceExport/invoices/
+submission/assignment/01-InvoiceExport/InvoiceExport/invoices
 **/Data/
 .vs/
 **/.vs/
-

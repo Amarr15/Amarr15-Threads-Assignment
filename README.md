@@ -12,28 +12,18 @@
 
 ```
 .
-+-- README.md                      (Student information, structure, notes & assumptions)
-+-- 01-InvoiceExport/
-|   +-- InvoiceExport/             (Fixed async/await order export project)
-|   +-- ANSWERS.md                 (Original behavior, problems found, changes made)
-+-- 02-TableBooking/
-|   +-- TableBooking/              (Fixed thread-safe table booking project using lock)
-|   +-- ANSWERS.md                 (Problem explanation, lock solution, actual output)
-+-- 03-LockingResearch/
-|   +-- ANSWERS.md                 (Answers to Q1-Q5 on Monitor, lock compilation, and comparison)
-+-- 04-MenuViews/
-|   +-- MenuViews/                 (Fixed view counter using Interlocked.Increment)
-|   +-- ANSWERS.md                 (Race condition analysis, atomic update fix)
-+-- 05-ViewsAndEmails/
-|   +-- ViewsAndEmails/            (ConcurrentDictionary & ConcurrentQueue implementation)
-|   +-- ANSWERS.md                 (Concurrency failures, thread-safe collections vs business rules)
-+-- 06-OrderProcessing/
-|   +-- OrderProcessing/           (Async Order Processing System targeting net10.0: Phases 1 to 4)
-|   +-- sample-output/             (phase1/ ... phase4/ - final JSON files)
-|   +-- screenshots/               (Console execution screenshots)
-|   +-- README.md                  (Comprehensive architecture design, benchmark table, and answers)
-+-- LinkedIn/
-    +-- linked.md                  (Public LinkedIn post references for required topics)
++-- README.md
++-- submission/
+    +-- assignment/
+    |   +-- README.md
+    |   +-- 01-InvoiceExport/      (Async/await order export project and answers)
+    |   +-- 02-TableBooking/       (Thread-safe table booking project and answers)
+    |   +-- 03-LockingResearch/    (Monitor, lock compilation, and comparison answers)
+    |   +-- 04-MenuViews/          (Interlocked view counter project and answers)
+    |   +-- 05-ViewsAndEmails/     (Concurrent collections project and answers)
+    |   +-- 06-OrderProcessing/    (Order processing phases, outputs, screenshots, and README)
+    +-- linkedin/
+        +-- posts.md               (Public LinkedIn post links)
 ```
 
 ---

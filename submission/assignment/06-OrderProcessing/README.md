@@ -32,7 +32,7 @@ The data folder is located at:
 
 ### Project Structure & Class Roles
 ```
-06-OrderProcessing/
+submission/assignment/06-OrderProcessing/
 +-- OrderProcessing/
 |   +-- Program.cs                  # Entry point, CLI argument parsing (--cancel-after), menu
 |   +-- OrderProcessing.csproj      # Targets net10.0
