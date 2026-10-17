@@ -7,16 +7,16 @@
 
 ### Post 1: Topic 1 — Task.WhenAll vs Task.WhenAny vs Task.WhenEach
 - **Topic Number:** 1
-- **Link:** [Link to your LinkedIn Post 1]
+- **Link:** https://lnkd.in/p/eXKN-eXK
 
 ---
 
 ### Post 2: Topic 5 — Interlocked vs lock
 - **Topic Number:** 5
-- **Link:** [Link to your LinkedIn Post 2]
+- **Link:** https://lnkd.in/p/eemvhN8n
 
 ---
 
-### Post 3: Topic 6 — SemaphoreSlim
-- **Topic Number:** 6
-- **Link:** [Link to your LinkedIn Post 3]
+### Post 3: Topic 4 — CancellationToken
+- **Topic Number:** 4
+- **Link:** https://lnkd.in/p/effiUdc3
